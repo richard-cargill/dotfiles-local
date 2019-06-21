@@ -1,7 +1,12 @@
 #!/bin/bash
 
-dotfiles="*.local"
+basePath="~/dotfiles-local"
 
-for f in $(ls -d $dotfiles); do ln -s $f ~/.$f; done
+ln -s $basePath/aliases.local ~/.aliases.local
+ln -s $basePath/gitconfig.local ~/.gitconfig.local
+ln -s $basePath/tmux.conf.local ~/.tmux.conf.local
+ln -s $basePath/vimrc.bundles.local ~/.vimrc.bundles.local
+ln -s $basePath/vimrc.local ~/.vimrc.local
+ln -s $basePath/zshrc.local ~/.zshrc.local
 
-source ~/.zshrc
+# source ~/.zshrc
