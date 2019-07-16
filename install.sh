@@ -30,9 +30,17 @@ sqlite \
 tmux \
 tree \
 xz \
+yarn \
 
 brew cask install \
 alfred \
 docker \
 spectacle \
 iterm2 \
+visual-studio-code \
+slack \
+
+
+# dracula theme for iterm
+mkdir ~/Code
+git clone https://github.com/dracula/iterm.git ~/Code/dracula-theme
