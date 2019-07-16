@@ -1,0 +1,15 @@
+{
+  "typescript.format.enable": false,
+  "javascript.validate.enable": false,
+  "flow.pathToFlow": "${workspaceFolder}/node_modules/.bin/flow",
+  "editor.wordWrap": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Dracula",
+  "editor.formatOnSave": true,
+  "gitlens.currentLine.scrollable": false
+}
