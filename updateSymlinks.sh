@@ -9,7 +9,8 @@ ln -s $basePath/vimrc.bundles.local ~/.vimrc.bundles.local
 ln -s $basePath/vimrc.local ~/.vimrc.local
 ln -s $basePath/zshrc.local ~/.zshrc.local
 
-# source ~/.zshrc
+brew tap aws/tap
+
 brew install \
 aws-sam-cli \
 awscli \
@@ -31,5 +32,7 @@ tree \
 xz \
 
 brew cask install \
-alfred3 \
+alfred \
 docker \
+spectacle \
+iterm2 \
