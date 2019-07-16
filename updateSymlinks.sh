@@ -10,3 +10,26 @@ ln -s $basePath/vimrc.local ~/.vimrc.local
 ln -s $basePath/zshrc.local ~/.zshrc.local
 
 # source ~/.zshrc
+brew install \
+aws-sam-cli \
+awscli \
+bash-completion \
+docker \
+gdbm \
+httpie \
+libevent \
+ncurses \
+nvm \
+openssl \
+python \
+python@2 \
+rcm \
+readline \
+sqlite \
+tmux \
+tree \
+xz \
+
+brew cask install \
+alfred3 \
+docker \
