@@ -9,7 +9,23 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Soft",
   "editor.formatOnSave": true,
-  "gitlens.currentLine.scrollable": false
+  "gitlens.currentLine.scrollable": false,
+  "window.zoomLevel": 0,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.renderWhitespace": "all",
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+
+    "**/node_modules": true, // this excludes all folders
+    // named "node_modules" from
+    // the explore tree
+
+    // alternative version
+    "node_modules": true // this excludes the folder
+    // only from the root of
+    // your workspace
+  }
 }

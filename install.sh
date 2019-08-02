@@ -39,7 +39,7 @@ spectacle \
 iterm2 \
 visual-studio-code \
 slack \
-
+spotify \
 
 # dracula theme for iterm
 mkdir ~/Code
