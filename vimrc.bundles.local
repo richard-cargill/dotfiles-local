@@ -18,8 +18,10 @@ Plug 'tpope/vim-endwise'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'leafgarland/typescript-vim'
-Plug 'sbdchd/neoformat'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+Plug 'apzelos/blamer.nvim'
+
+" Plug 'sbdchd/neoformat'
+" Plug 'prettier/vim-prettier', {
+"   \ 'do': 'yarn install',
+"   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 

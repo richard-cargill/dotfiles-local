@@ -234,12 +234,10 @@ let g:indentLine_char = '|'
 " Display quotes in json
 let g:vim_json_syntax_conceal = 0
 
-let b:ale_linters = ['xo']
+let b:ale_linters = ['prettier', 'eslint']
 
-let g:ale_fixers = {
-      \   'javascript': ['prettier'],
-      \   'css': ['prettier'],
-      \}
+let g:ale_fixers = { 'javascript': ['prettier', 'eslint'] }
 
 let g:ale_fix_on_save = 1
 
+let g:blamer_enabled = 1
