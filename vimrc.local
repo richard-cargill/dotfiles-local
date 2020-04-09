@@ -4,13 +4,15 @@
 set nocompatible
 
 " Set syntax colour
-color dracula
+" color dracula
+colorscheme solarized
+set background=light
 syntax on
 
 set term=screen-256color-bce
 let g:solarized_termcolors=256
 set t_Co=256
-set background=dark
+" set background=dark
 
 " Turn on filetype plugins (:help filetype-plugin).
 if has('autocmd')
@@ -236,7 +238,7 @@ let g:vim_json_syntax_conceal = 0
 
 let b:ale_linters = ['prettier', 'eslint']
 
-let g:ale_fixers = { 'javascript': ['prettier', 'eslint'] }
+let g:ale_fixers = { 'javascript': ['prettier', 'eslint'], 'typescript': ['prettier', 'eslint'] }
 
 let g:ale_fix_on_save = 1
 
